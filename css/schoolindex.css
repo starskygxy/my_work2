@@ -19,7 +19,7 @@ img{border: none}
 .navbar-default .navbar-nav>li>a {color: #A8B0CA;}
 .navbar-default .navbar-nav>li>a:hover{font-weight: bold;color: white;}
 .form-group input[type=text]{width: 200px}
-.header_center{width: 100%;height:160px;background-color: #293E86;margin-top:50px;}
+.header_center{width: 100%;height:160px;background-color: #293E86;margin-top:50px;overflow:hidden;}
 .font_center{width:300px;height: 83px;margin: 0 auto;line-height: 83px}
 .font_center img{margin-top: 20px}
 .nav_font{width: 100%;height: 40px;background-color: #263A7E;}
@@ -58,3 +58,4 @@ img{border: none}
 .font_end ul li a{color:#a4b4d6;text-decoration: none;}
 .font_end ul li a:hover{color:white;}
 .font_end1 li{color:#a4b4d6;font-size:12px;-webkit-transform:scale(0.8);}
+.row{margin-right:0px;}
