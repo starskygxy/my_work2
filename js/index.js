@@ -10,6 +10,7 @@ for(var i=0;i<oLi.length;i++){
 		}
 
 		oLi[this.index].setAttribute('class', 'active');
+		
 }
 }
 /*点击超链接改变整体颜色*/
@@ -33,4 +34,18 @@ for(var k=0;k<ctli.length;k++){
 
 }
 }
+}
+
+/*校徽logo变换*/
+var logo=document.getElementById('logo');
+logo.onmouseenter =function(){
+	var that=this;
+	setTimeout(function(){
+		that.className='animated rubberBand';
+	}, 500);
+	
+}
+logo.onmouseleave=function(){
+	this.className='animated';
+	
 }
